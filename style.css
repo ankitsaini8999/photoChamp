@@ -71,22 +71,12 @@ body{
 }
 
 ::-webkit-scrollbar{
-        width: 15px;
+        width: 0.000001px;
 }
-::-webkit-scrollbar-track{
-        border: 8px solid #232943;
-        flex-direction: row;
-        box-shadow: inset 0 0 0px 0px rgba(0,0,0,0); 
-}
-::-webkit-scrollbar-thumb{
-    background: linear-gradient(160deg,#FB9838,#FFFFFF,#0DFF16);
-}
-
 /*header*/
 header{
     height: 100vh;
-    background: linear-gradient(117.73992253205643deg, rgba(48, 245, 251,.4) 7.05078125%,rgba(23, 142, 203,.4) 93.76953124999999%), url(mainbg.jpg) no-repeat center center;
-    background-size: cover;
+    background: linear-gradient(117.73992253205643deg, rgba(48, 245, 251,.4) 7.05078125%,rgba(23, 142, 203,.4) 93.76953124999999%), url(bg1.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -166,7 +156,6 @@ header{
         opacity: 1;
     }
 } 
-
 /*end of  banner*/
 
 /*end of header*/
@@ -175,7 +164,6 @@ header{
 .mission{
     background: #151f20;
 }
-
 .underline{
      width: 150px;
      border:3px solid #eee;
@@ -238,7 +226,6 @@ header{
 .card1,.card2,.card3{
     background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(bg1.jpg) center;
     box-shadow: 7px 18px 50px #555;
-    background-size:cover;
     background-size:cover;
     max-width: 400px;
 }
@@ -317,7 +304,6 @@ header{
                                         rgba(21,31,32,.95) 50%,  
                                         transparent 50%),
                   url(bg2.jpg) center center no-repeat ;
-    background-size:cover;
     background-size:cover;             
 }
 .input{
