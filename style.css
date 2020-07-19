@@ -57,7 +57,6 @@
                     0 30px 60px rgba(0,0,0,.5);
         opacity: 1;
         transform: translateX(0px) scale(1.2);
-
     }
     100%{
         box-shadow: 0 0 0 rgba(0,0,0,.5);
@@ -65,9 +64,6 @@
         transform: translateX(50px) scale(1);
     }
 }
-
-
-
 /* main body */
 
 body{
@@ -86,13 +82,11 @@ body{
     background: linear-gradient(160deg,#FB9838,#FFFFFF,#0DFF16);
 }
 
-
-
 /*header*/
 header{
     height: 100vh;
-    background: linear-gradient(170deg,rgba(255,104,98,.4),rgba(255,124,11,.4),rgba(255,255,255,.4),rgba(255,255,255,.4),rgba(3,187,0,.4),rgba(13,255,73,.4)), url(image/bg1.jpg) no-repeat center center;
-    -webkit-background-size: cover;
+    background: linear-gradient(170deg,rgba(255,104,98,.4),rgba(255,124,11,.4),rgba(255,255,255,.4),rgba(255,255,255,.4),rgba(3,187,0,.4),rgba(13,255,73,.4)), url(bg1.jpg) no-repeat center center;
+    background-size: cover;
     background-size: cover;
 }
 
@@ -111,11 +105,9 @@ header{
 .menu-item:hover{
     color: #70aed2;
 }
-
 .nav-button{
     outline: transparent !important;
 }
-
 .line1, .line3{
     width: 23px;
     height: 3px;
@@ -142,10 +134,8 @@ header{
 
 .custom-navbar{
     padding: 5px 30px;
-    background: linear-gradient(rgba(10,10,100,.8),rgba(100,10,0,.5));
-    
+    background: linear-gradient(rgba(10,10,100,.8),rgba(100,10,0,.5));  
 }
-
 
 @media (min-width: 768px){
     .menu-item{
@@ -180,7 +170,6 @@ header{
     animation-fill-mode: backwards;
 }
 
-
 @keyframes baner{
     0%{
         transform: translateX(-100px);
@@ -195,7 +184,6 @@ header{
 /*end of  banner*/
 
 /*end of header*/
-
 
 /*mission*/
 .mission{
@@ -235,7 +223,6 @@ header{
 /*end of collection*/
 
 /*gallery*/
-
 .underline-dark{
      width: 150px;
      border:3px solid #888;
@@ -251,8 +238,6 @@ header{
 }
 /*end of gallery*/
 
-
-
 /*customers*/
 .customers{
     background: #151f20;
@@ -262,9 +247,9 @@ header{
 
 /*pricing*/
 .card1,.card2,.card3{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(image/17.jpg) center;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(17.jpg) center;
     box-shadow: 7px 18px 50px #555;
-    -webkit-background-size:cover;
+    background-size:cover;
     background-size:cover;
     max-width: 400px;
 }
@@ -276,7 +261,6 @@ header{
     width: 55%;
     margin: auto;
 }
-
 .price-card-button{
     background: #f5593d;
     width: 130px;
@@ -284,12 +268,10 @@ header{
     box-shadow: 5px 8px 18px #000;
     transition: all .2s;
 }
-
 .price-card-button:hover{
     background: #f5593d;
     transform: translateY(-2px); 
 }
-
 .movefromleft{
     animation-name: movefromleft;
     animation-duration: 2s;
@@ -345,11 +327,10 @@ header{
                                         rgba(21,31,32,1) 0%,
                                         rgba(21,31,32,.95) 50%,  
                                         transparent 50%),
-                  url(image/bg1.jpg) center center no-repeat ;
-     -webkit-background-size:cover;
+                  url(bg2.jpg) center center no-repeat ;
+    background-size:cover;
     background-size:cover;             
 }
-
 .input{
     background: transparent;
     border-color: transparent;
@@ -357,7 +338,6 @@ header{
     border-radius: 0;
     transition: all .8s;
 }
-
 .input:focus{
     background: transparent;
     border-color: transparent;
@@ -365,7 +345,6 @@ header{
     color: #fff;
     border-bottom: 2px solid #f5593d;
 }
-
 .submit-button{
     background: #f5593d;
     color: #eee;
@@ -374,7 +353,6 @@ header{
     background: #f9793d;
     transform: translateY(-3px);
 }
-
 .label{
     color: transparent;
     display: block;
@@ -404,7 +382,6 @@ header{
     }
 }
 
-
 @media (min-width: 918px){
         .contact-form{
         width: 90% !important;
@@ -422,36 +399,18 @@ header{
     font-size: 13px;
     transition: all .3s;
 }
-
 .footer-link:hover{
     color: #70aed2;
     text-decoration: none;
 
 }
-
-#icon1:hover{
-       transform: translateY(5px);
-       transition: .3s;
-}
-
-#icon2:hover{
-       transform: translateY(5px);
-       transition: .3s;
-}
-
-#icon3:hover{
-      transform: translateY(5px);
-      transition: .3s; 
-}
-
-#icon4:hover{
-       transform: translateY(5px);
-       transition: .3s;
-}
-
+#icon1:hover,
+#icon2:hover,
+#icon3:hover,
+#icon4:hover,
 #icon5:hover{
        transform: translateY(5px);
-       transition: .3s;   
+       transition: .3s;
 }
 /*end of footer*/
 
