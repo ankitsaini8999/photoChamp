@@ -124,7 +124,7 @@ header{
 
 .custom-navbar{
     padding: 5px 30px;
-    background: linear-gradient(117.73992253205643deg, rgba(248, 197, 91,.5) 7.05078125%,rgba(248, 97, 55,.5) 93.76953124999999%);  
+    background: linear-gradient(117.73992253205643deg, rgba(246, 245, 245,1) 7.05078125%,rgba(220, 220, 220,1) 93.76953124999999%);  
 }
 /*end of navbar*/
 
@@ -207,10 +207,6 @@ header{
 .active-item{
     color: #70aed2;
 }
-.filter img{
-    width: 100%;
-    background-size: cover;
-}
 /*end of gallery*/
 
 /*customers*/
@@ -221,7 +217,7 @@ header{
 
 /*pricing*/
 .card1,.card2,.card3{
-    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(bg1.jpg) center;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)), url(bg1.jpg) center center no-repeat;
     box-shadow: 7px 18px 50px #555;
     background-size:cover;
     max-width: 400px;
