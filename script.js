@@ -5,7 +5,7 @@ $(document).ready(function() {
 
   $(window).scroll(function(){
     let position = $(this).scrollTop();
-    if(position >= 280){
+    if(position >= 300){
         $('.nav-menu').addClass('custom-navbar');
     }
     else {
@@ -29,7 +29,7 @@ $(document).ready(function() {
 
   $(window).scroll(function() {
      let position = $(this).scrollTop();
-     if(position >= 4200)
+     if(position >= 4300)
      {
         $('.card1').addClass('movefromleft');
         $('.card2').addClass('movefrombottom');
