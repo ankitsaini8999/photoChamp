@@ -28,8 +28,8 @@ $(document).ready(function() {
  });
 
   $(window).scroll(function() {
-     let position = $(this).scrollTop();
-     if(position >= 4300)
+     let card_move = $(this).scrollTop();
+     if(card_move >= 4300)
      {
         $('.card1').addClass('movefromleft');
         $('.card2').addClass('movefrombottom');
